@@ -33,8 +33,9 @@ public class Main {
             System.out.println("Потребуется дней: " + 1);
         } else if (deliveryDistance > 20 && deliveryDistance <= 60) {
             System.out.println("Потребуется дней: " + 2);
-        } else
+        } else {
             System.out.println("Потребуется дней: " + 3);
+        }
 
         //Задание 5
         int monthNumber = 12;
